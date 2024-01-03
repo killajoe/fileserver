@@ -10,8 +10,8 @@ cd ..
 rm -rf endeavouros-hyprland
 chown -R $username:$username /home/$username
 su $username
-cd /home/$username
-wget https://raw.githubusercontent.com/killajoe/fileserver/main/hypr_packages.list
-sudo pacman -S --needed --noconfirm - < /home/$username/hypr_packages.list
-rm /home/$username/hypr_packages.list
-cd /
+#cd /home/$username
+#wget https://raw.githubusercontent.com/killajoe/fileserver/main/hypr_packages.list
+#sudo pacman -S --needed --noconfirm - < /home/$username/hypr_packages.list
+#rm /home/$username/hypr_packages.list
+#cd /
